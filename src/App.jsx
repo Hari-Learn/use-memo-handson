@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react"
+import MemoSample from "./comp/MemoSample";
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <>
      
       <h1>Vite + React</h1>
+      <MemoSample></MemoSample>
       <input type="number"
         onChange={(e)=> setNum(e.target.value)}
         value={num}
