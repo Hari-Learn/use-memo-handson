@@ -1,3 +1,62 @@
+.isometric {
+  background-color: #fefefe;
+  background-image: linear-gradient(
+      30deg,
+      #5394fd 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #5394fd 87.5%,
+      #5394fd
+    ),
+    linear-gradient(
+      150deg,
+      #5394fd 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #5394fd 87.5%,
+      #5394fd
+    ),
+    linear-gradient(
+      30deg,
+      #5394fd 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #5394fd 87.5%,
+      #5394fd
+    ),
+    linear-gradient(
+      150deg,
+      #5394fd 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #5394fd 87.5%,
+      #5394fd
+    ),
+    linear-gradient(
+      60deg,
+      #5394fd77 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #5394fd77 75%,
+      #5394fd77
+    ),
+    linear-gradient(
+      60deg,
+      #5394fd77 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #5394fd77 75%,
+      #5394fd77
+    );
+  background-size: 48px 84px;
+  background-position:
+    0 0,
+    0 0,
+    24px 42px,
+    24px 42px,
+    0 0,
+    24px 42px;
+}
 .tag-input {
   display: flex;
   flex-wrap: wrap;
