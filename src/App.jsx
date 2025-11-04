@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react"
 import MemoSample from "./comp/MemoSample";
+import TagInput from "./comp/TagInput";
 
 
 
@@ -20,6 +21,9 @@ function App() {
         value={num}
         />
         <p>Double : {doubleNum}</p>
+
+      <TagInput tags={['ccna','rhcsa','aws']}></TagInput>
+
     </>
 
   )
